@@ -1,14 +1,14 @@
-EF LENS — END USER LICENSE AGREEMENT (PREVIEW)
+SCHEMAWISE — END USER LICENSE AGREEMENT (PREVIEW)
 
 Last updated: 8 October 2026
 
 This End User License Agreement ("Agreement") is between Alain Cayroche, France
 (alaincayroche@gmail.com) ("Licensor", "we") and you, the individual or the legal entity on
-whose behalf you install or use the software ("you"). By installing or using EF Lens you accept this Agreement.
-If you do not accept it, do not install or use EF Lens.
+whose behalf you install or use the software ("you"). By installing or using Schemawise you
+accept this Agreement. If you do not accept it, do not install or use Schemawise.
 
 1. DEFINITIONS
-"Software" means the EF Lens extension for Visual Studio Code and compatible editors, including
+"Software" means the Schemawise extension for Visual Studio Code and compatible editors, including
 its bundled host process, documentation and updates, in object code form. "Preview" means any
 version labelled preview, beta or pre-release. "Third-Party Components" means the components
 listed in THIRD-PARTY-NOTICES.txt.

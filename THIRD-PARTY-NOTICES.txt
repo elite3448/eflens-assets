@@ -1,8 +1,8 @@
-EF LENS — THIRD-PARTY NOTICES
+SCHEMAWISE — THIRD-PARTY NOTICES
 
-EF Lens includes the components below in its bundled host (folder dist/host). Each is the
+Schemawise includes the components below in its bundled host (folder dist/host). Each is the
 property of its respective owner and is licensed under its own terms, which apply to that
-component. The full license texts are available at the URLs given. EF Lens does not bundle Entity
+component. The full license texts are available at the URLs given. Schemawise does not bundle Entity
 Framework Core: it uses the version referenced by your own project.
 
 The CI build checks that every library shipped in dist/host belongs to a family listed here
