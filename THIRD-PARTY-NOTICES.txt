@@ -1,0 +1,75 @@
+EF LENS — THIRD-PARTY NOTICES
+
+EF Lens includes the components below in its bundled host (folder dist/host). Each is the
+property of its respective owner and is licensed under its own terms, which apply to that
+component. The full license texts are available at the URLs given. EF Lens does not bundle Entity
+Framework Core: it uses the version referenced by your own project.
+
+The CI build checks that every library shipped in dist/host belongs to a family listed here
+(scripts/check-notices.sh).
+
+-------------------------------------------------------------------------------
+Microsoft.Data.SqlClient
+  Copyright (c) Microsoft Corporation. License: MIT.
+  https://github.com/dotnet/SqlClient — https://licenses.nuget.org/MIT
+
+Microsoft.Data.SqlClient.SNI (native library, Windows)
+  Copyright (c) Microsoft Corporation. License: Microsoft Software License Terms for the
+  Microsoft.Data.SqlClient.SNI library (redistributable as part of an application).
+  https://www.nuget.org/packages/Microsoft.Data.SqlClient.SNI.runtime/5.2.0/License
+
+Azure.Core, Azure.Identity
+  Copyright (c) Microsoft Corporation. License: MIT.
+  https://github.com/Azure/azure-sdk-for-net
+
+Microsoft.Identity.Client, Microsoft.Identity.Client.Extensions.Msal,
+Microsoft.IdentityModel.* (Abstractions, JsonWebTokens, Logging, Protocols,
+Protocols.OpenIdConnect, Tokens), System.IdentityModel.Tokens.Jwt
+  Copyright (c) Microsoft Corporation. License: MIT.
+  https://github.com/AzureAD/microsoft-authentication-library-for-dotnet
+  https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet
+
+Microsoft.SqlServer.Server, Microsoft.Bcl.AsyncInterfaces, Microsoft.Extensions.*,
+Microsoft.Win32.*, System.* (runtime and extension packages, including
+System.Reflection.MetadataLoadContext)
+  Copyright (c) .NET Foundation and Contributors / Microsoft Corporation. License: MIT.
+  https://github.com/dotnet/runtime — https://licenses.nuget.org/MIT
+
+Npgsql
+  Copyright (c) 2002-2024, Npgsql. License: PostgreSQL License.
+  https://github.com/npgsql/npgsql — https://licenses.nuget.org/PostgreSQL
+
+-------------------------------------------------------------------------------
+MIT License (applies to the components marked MIT above)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+and associated documentation files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-------------------------------------------------------------------------------
+PostgreSQL License (applies to Npgsql)
+
+Permission to use, copy, modify, and distribute this software and its documentation for any
+purpose, without fee, and without a written agreement is hereby granted, provided that the above
+copyright notice and this paragraph and the following two paragraphs appear in all copies.
+
+IN NO EVENT SHALL THE NPGSQL DEVELOPMENT TEAM BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF
+THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF THE NPGSQL DEVELOPMENT TEAM HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+THE NPGSQL DEVELOPMENT TEAM SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE
+PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE NPGSQL DEVELOPMENT TEAM HAS NO OBLIGATIONS TO
+PROVIDE MAINTENANCE, SUPPORT, ENHANCEMENTS, OR MODIFICATIONS.
