@@ -1,0 +1,68 @@
+name: Schemawise Pro – keep the Query Profiler?
+description: One minute to tell us whether you would like Schemawise Pro to continue after the trial.
+title: "Pro interest"
+labels: [pro-interest]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for trying Schemawise Pro! Your answers decide whether the Pro features continue.
+        This form creates a **public** issue: do not include confidential information.
+  - type: dropdown
+    id: keep
+    attributes:
+      label: Would you like to keep using the Query Profiler?
+      options:
+        - Yes, and I would pay for it
+        - Yes, if the price is low
+        - Only if it is free
+        - No, it is not useful to me
+    validations:
+      required: true
+  - type: dropdown
+    id: price
+    attributes:
+      label: What price would feel fair to you, per developer?
+      options:
+        - Up to 5 € per month
+        - 5 to 10 € per month
+        - 10 to 20 € per month
+        - More than 20 € per month
+        - A one-time purchase rather than a subscription
+        - I would not pay
+  - type: dropdown
+    id: payer
+    attributes:
+      label: Who would pay?
+      options:
+        - Me
+        - My company
+        - Not sure
+  - type: checkboxes
+    id: features
+    attributes:
+      label: Which Pro features would you use? (planned features included)
+      options:
+        - label: Query Profiler (N+1, slow queries, large results at the line of code)
+        - label: Index advisor (missing indexes from real queries, with the EF configuration to add)
+        - label: Migration conflicts between branches, migration status of each environment
+        - label: CI check (risky migrations and drift in your pipeline)
+        - label: Fix schema drift in one click (migration or C# generated)
+        - label: Interactive database diagram
+  - type: dropdown
+    id: team
+    attributes:
+      label: How many developers work on your EF Core projects?
+      options:
+        - Just me
+        - 2 to 5
+        - 6 to 20
+        - More than 20
+  - type: textarea
+    id: comments
+    attributes:
+      label: Anything else? What would make Schemawise Pro worth it for you?
+  - type: input
+    id: version
+    attributes:
+      label: Schemawise version
