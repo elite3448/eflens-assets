@@ -18,10 +18,10 @@ Everything runs locally: no source code, connection string, schema or data leave
 ## Schemawise Pro: see what your queries really do
 
 **Find the N+1 before your users do.** Start your app as usual: every SQL query EF Core runs shows up
-at the line of code that runs it, with N+1 queries, slow queries and huge results flagged in the editor.
-No package to add, no code to change.
+at the line of code that runs it, with N+1 queries, slow queries and huge results flagged in the editor,
+and the N+1 fixed in one click. No package to add, no code to change.
 
-![Query Profiler demo: start the app, call an endpoint, the N+1 shows up above the loop, click it for the SQL](media/screenshots/query-profiler-demo.gif)
+![Query Profiler demo: the N+1 shows up above the loop, fixed in one click: 144 queries become 3](media/screenshots/query-profiler-demo.gif)
 
 **Index advisor**: the missing indexes of your real queries, read from estimated plans (never executed),
 ranked by the time they would save, with the `HasIndex(...)` configuration to add.
