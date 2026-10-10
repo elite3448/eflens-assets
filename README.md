@@ -21,7 +21,7 @@ Everything runs locally: no source code, connection string, schema or data leave
 at the line of code that runs it, with N+1 queries, slow queries and huge results flagged in the editor.
 No package to add, no code to change.
 
-![Query Profiler: an N+1 query flagged in the editor, right above the loop](media/screenshots/query-profiler.png)
+![Query Profiler demo: start the app, call an endpoint, the N+1 shows up above the loop, click it for the SQL](media/screenshots/query-profiler-demo.gif)
 
 **Index advisor**: the missing indexes of your real queries, read from estimated plans (never executed),
 ranked by the time they would save, with the `HasIndex(...)` configuration to add.
